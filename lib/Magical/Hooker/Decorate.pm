@@ -6,7 +6,7 @@ use warnings;
 require 5.008001;
 use parent qw(DynaLoader);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 $VERSION = eval $VERSION;
 
 sub dl_load_flags { 0x01 }
@@ -22,7 +22,7 @@ __END__
 
 =head1 NAME
 
-Magical::Hooker::Decorate - Decoarte an SV using magic hooks
+Magical::Hooker::Decorate - Decorate an SV using magic hooks
 
 =head1 SYNOPSIS
 
@@ -117,7 +117,7 @@ Get the C<MAGIC> entry in which the decoration is stored.
 
 =head1 THANKS
 
-Shawn M Moore (he knows why()
+Shawn M Moore (he knows why)
 
 =head1 VERSION CONTROL
 
